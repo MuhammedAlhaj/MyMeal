@@ -5,6 +5,7 @@ import 'package:mymeal/ui/login/ResetPassword.dart';
 import 'package:mymeal/ui/login/login.dart';
 import 'package:mymeal/ui/login/signin.dart';
 import 'package:mymeal/ui/login/signup.dart';
+import 'package:mymeal/ui/onboardingScreen.dart';
 import 'package:mymeal/ui/splash/splash.dart';
 
 void main() {
@@ -23,7 +24,7 @@ class _MyAppState extends State<MyApp> {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: examp(),
+      home: OnBoardingScreen(),
     );
   }
 }

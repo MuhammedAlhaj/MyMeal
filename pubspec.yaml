@@ -49,7 +49,6 @@ dependencies:
   mobx:
   flutter_mobx:
   flutter_signin_button:
-  webview_flutter:
   smooth_page_indicator:
 
     # An helper to easily exposes a value using InheritedWidget without having to write one.
@@ -157,5 +156,11 @@ flutter:
           style: italic
         - asset: assets/fonts/Product-Sans-Bold.ttf
           weight: 700
+    - family: jannah
+      fonts:
+        - asset: assets/fonts/BahijJannaBold.ttf
+          weight: 700
+
+
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
